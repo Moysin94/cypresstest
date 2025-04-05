@@ -1,0 +1,4 @@
+{
+    "testcaselistButton": "div.item.active a.test_cases_list",
+    "testcase": "[class='title text-center'] b"
+}

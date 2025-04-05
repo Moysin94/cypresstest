@@ -1,0 +1,10 @@
+{
+    "loginEmail": "input[data-qa='login-email']",
+    "loginPassword": "input[data-qa='login-password']",
+    "loginButton": "button[data-qa='login-button']",
+    "logoutButton": "a[href='/logout']",
+    "username": ".fa.fa-user+b",
+    "completeUserName": "[class='nav navbar-nav']>:nth-child(10) > a",
+    "invalidMessage": "[action='/login']>p",
+    "homeButton" :"[class='fa fa-home']"
+}

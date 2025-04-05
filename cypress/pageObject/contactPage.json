@@ -1,0 +1,12 @@
+{
+    "contactButton": "a[href='/contact_us']:nth-child(1)",
+    "name": "input[data-qa='name']",
+    "email":"input[data-qa='email']",
+    "subject": "input[data-qa='subject']",
+    "message": "textarea[data-qa='message']",
+    "uploadfileButton": "input[name='upload_file']",
+    "submitButton": "input[data-qa='submit-button']",
+    "successMessage": "div[class='status alert alert-success']",
+    "homeButton": "a[class='btn btn-success']",
+    "chooseFileButton": "[type='file']"
+}

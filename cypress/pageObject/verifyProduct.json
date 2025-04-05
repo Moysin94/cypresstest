@@ -1,0 +1,14 @@
+{
+    "productPage": "[href='/products']",
+    "productTitle": "[class='title text-center'] h2",
+    "firstProductDetails": "[href='/product_details/1']",
+    "productName": "[class='product-information'] h2",
+    "productCategory": "[class='product-information'] h2+P",
+    "productPrice": "[class='product-information'] span span",
+    "productAvailability": "div.product-information p:nth-of-type(2)",
+    "productCondition": "div.product-information p:nth-of-type(3)",
+    "productBrand": "div.product-information p:nth-of-type(4)",
+    "searchProductTextBox": "[id='search_product']",
+    "searchProductButton": "[id='submit_search']",
+    "productNameAfterSearch": "[class='productinfo text-center'] p"
+}

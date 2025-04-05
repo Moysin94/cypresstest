@@ -1,0 +1,8 @@
+{
+    "name": "test123",
+    "email": "test29292@gmail.com",
+    "subject": "test123",
+    "message": "new message",
+    "confirmText": "Press OK to proceed!",
+    "contactFormSuccessMessage": "Success! Your details have been submitted successfully."
+}    

@@ -1,0 +1,7 @@
+{"url": "https://www.automationexercise.com/",
+    "signupLoginButton": "//a[@href='/login']",
+    "loginEmail": "//input[@data-qa='login-email']",
+    "loginPassword": "//input[@data-qa='login-password']",
+    "loginButton": "//button[@data-qa='login-button']",
+    "logoutButton": "//a[@href='/logout']"
+}

@@ -1,0 +1,7 @@
+{
+    "subscriptionText": "[class='single-widget'] h2",
+    "subscriptionEmailTextBox": "[id='susbscribe_email']",
+    "subscriptionButton": "[class='fa fa-arrow-circle-o-right']",
+    "subscriptionToastMessage": "[id='success-subscribe'] div",
+    "cartPageButton": "[class='nav navbar-nav'] [href='/view_cart']"
+}

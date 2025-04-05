@@ -1,0 +1,6 @@
+{
+    "signupName": "input[data-qa='signup-name']",
+    "signupEmail": "input[data-qa='signup-email']",
+    "signupButton": "button[data-qa='signup-button']",
+    "signupMessageExistingUser": "p[style='color: red;']"
+}
