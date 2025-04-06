@@ -18,14 +18,14 @@ describe('Product Page Test Cases Suites', () => {
         cy.get(addProductToCartHomePage.continueShoppingBotton).click();
 
     });
-    // afterEach(() => {
-    //     logout();
-    //     cy.log('**Test Case Completed**');
-    //     // Example to clear local storage or session storage
-    //     cy.clearCookies();
-    //     cy.clearLocalStorage();
-    // });
-    // after(() => {
-    //     cy.log('**Test Suite Execution Completed**');
-    // });
+    afterEach(() => {
+        logout();
+        cy.log('**Test Case Completed**');
+        // Example to clear local storage or session storage
+        cy.clearCookies();
+        cy.clearLocalStorage();
+    });
+    after(() => {
+        cy.log('**Test Suite Execution Completed**');
+    });
 })
