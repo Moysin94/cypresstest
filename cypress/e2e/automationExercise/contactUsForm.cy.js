@@ -1,6 +1,7 @@
 import { loginParameterized, logout } from '../../commonFunction/loginFunctions.js'
 import { contact } from '../../commonFunction/contactFunction.js'
 import testData from '../../fixtures/testData.json'
+import contactUsFormData from '../../fixtures/contactUsFormData.json'
 
 describe('Contact Us Test Suites', () => {
     before(() => {
@@ -23,7 +24,7 @@ describe('Contact Us Test Suites', () => {
         cy.get(contactPage.submitButton).click()
         cy.on('window:confirm', (confirmText) => {
             // Assertion confirm text
-            expect(contactUsFormData.confirmText).to.eq(contactUsFormData.confirmText)
+            expect(confirmText).to.eq(contactUsFormData.confirmText)
 
             // Automatically clicks 'OK' with true and 'Cancel' with false
             return true
