@@ -1,5 +1,6 @@
 import { modularLoginFunction, logout } from '../../utilities/loginFunctions.js'
 import addProductToCartHomePage from '../../pageObject/addProductToCartHomePage.json'
+import contactPage from '../../pageObject/contactPage.json'
 import addProductToCarts from '../../fixtures/addProductToCarts.json'
 import testData from '../../fixtures/testData.json'
 

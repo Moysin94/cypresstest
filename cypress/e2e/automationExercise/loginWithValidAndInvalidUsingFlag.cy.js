@@ -4,7 +4,7 @@ import loginPage from '../../pageObject/loginPage.json'
 
 //login with valid/invalid creds using flag
 
-it,only('login with invalid creds', () => {
+it('login with invalid creds', () => {
     modularLoginFunction({ userEmail: testData.invalidemail, userPassword: testData.invalidpassword, isValid: false });
 });
 it('login with valid creds', () => {

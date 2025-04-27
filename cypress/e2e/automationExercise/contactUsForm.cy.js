@@ -4,13 +4,9 @@ import testData from '../../fixtures/testData.json'
 import contactUsFormData from '../../fixtures/contactUsFormData.json'
 
 describe('Contact Us Test Suites', () => {
-    before(() => {
-        cy.log('**Test Suite Execution Started**');
-    });
     beforeEach(() => {
         cy.log('**Test Case Started**');
         loginParameterized({ useremail: testData.validemail, userpassword: testData.password });
-
     });
     it('Contact Form', () => {
         // cy.log('test case for contact function')  
@@ -34,11 +30,8 @@ describe('Contact Us Test Suites', () => {
     afterEach(() => {
         logout();
         cy.log('**Test Case Completed**');
-        // Example to clear local storage or session storage
+        //Example to clear local storage or session storage
         cy.clearCookies();
         cy.clearLocalStorage();
-    });
-    after(() => {
-        cy.log('**Test Suite Execution Completed** 🎯');
     });
 })

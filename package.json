@@ -1,15 +1,18 @@
 {
   "devDependencies": {
-    "cypress": "^14.2.1",
+    "cypress": "^14.3.2",
     "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.8.2"
   },
   "dependencies": {
+    "cypress-real-events": "^1.14.0",
     "cypress-xpath": "^2.0.1"
   },
   "scripts": {
-  "test:chrome": "npx cypress run --browser chrome",
-  "test:edge": "npx cypress run --browser edge",
-  "test:parallel": "npm run test:chrome & npm run test:edge"
-}
+    "test:chrome": "npx cypress run --browser chrome",
+    "test:edge": "npx cypress run --browser edge",
+    "test:parallel": "npm run test:chrome & npm run test:edge",
+    "test:smoke": "npx cypress run --spec 'cypress/e2e/smoke/*.cy.js'",
+    "test:regression": "npx cypress run --spec 'cypress/e2e/regression/*.cy.js'"
+  }
 }

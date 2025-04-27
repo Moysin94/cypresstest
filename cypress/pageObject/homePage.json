@@ -1,3 +1,5 @@
 {
-    "loginButton": "a[href='/login']"
+    "loginButton": "a[href='/login']",
+    "productPage": "[href='/products']",
+    "cartPage": "[class='nav navbar-nav']>li:nth-child(3)"
 }

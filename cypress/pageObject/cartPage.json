@@ -1,0 +1,4 @@
+{
+    "productName": "[id='product-1']",
+    "removeProductFirst": "[id='product-1']>td:nth-child(6)"
+}
