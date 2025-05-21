@@ -1,4 +1,4 @@
-name: Run Cypress Tests
+name: Run regression in multi browser
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests in ${{ matrix.browser }}
-        run: npx cypress run --browser ${{ matrix.browser }} --headless
+        run: npx cypress run --browser ${{ matrix.browser }} --headless --spec "cypress/e2e/regression/**/*.cy.js"
 
       - name: Upload Cypress screenshots if tests fail
         if: failure()
