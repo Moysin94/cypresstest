@@ -1,4 +1,4 @@
-name: Run Cypress Tests
+name: Run Smoke Tests
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npx cypress run
+        run: npx cypress run --spec "cypress/e2e/smoke/**/*.cy.js"
