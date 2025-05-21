@@ -15,15 +15,15 @@ describe('Product Page Test Cases Suites', () => {
         //Assertion
         cy.get(addProductToCartHomePage.continueShoppingSuccessMessage)
             .should('have.text', addProductToCarts.continueShoppingSuccessMessage);
-        cy.wait(3000);
+        cy.wait(5000);
         cy.get(addProductToCartHomePage.continueShoppingNew).click();
 
     });
-    afterEach(() => {
-        logout();
-        cy.log('**Test Case Completed**');
-        // Example to clear local storage or session storage
-        cy.clearCookies();
-        cy.clearLocalStorage();
-    });
+    // afterEach(() => {
+    //     logout();
+    //     cy.log('**Test Case Completed**');
+    //     // Example to clear local storage or session storage
+    //     cy.clearCookies();
+    //     cy.clearLocalStorage();
+    // });
 })
