@@ -4,12 +4,10 @@ import cartPage from '../pageObject/cartPage.json'
 
 const addToCart = () => {
     cy.get(addProductToCartHomePage.productNewLoc).realHover().first().click();
-    cy.get(addProductToCartHomePage.Product1).click();
     //Assertion
     cy.get(addProductToCartHomePage.continueShoppingSuccessMessage)
         .should('have.text', addProductToCarts.continueShoppingSuccessMessage);
-    cy.wait(7000);
-    cy.get(addProductToCartHomePage.continueShoppingNew).click();
+    cy.get(addProductToCartHomePage.ContinueShoppingLoc).click();
 }
 
 const removeFromCart = () => {

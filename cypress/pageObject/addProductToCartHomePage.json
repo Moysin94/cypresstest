@@ -1,5 +1,6 @@
 {
-    "Product1": ".product-overlay>.overlay-content>a[data-product-id='1']",
+    "ContinueShoppingLoc":"[class='modal-dialog modal-confirm']>div>div:nth-child(3)",
+    "Product1Old": ".product-overlay>.overlay-content>a[data-product-id='1']",
     "productNewLoc": "[class='productinfo text-center']>a[data-product-id='1']",
     "Product2": ".product-overlay>.overlay-content>a[data-product-id='2']",
     "continueShoppingBotton": "button[class='btn btn-success close-modal btn-block']",
