@@ -14,7 +14,7 @@ describe('test suite', () => {
         //     'Travel Insurance'
         // ];
         failOnStatusCode: false;
-        cy.visit("https://shop.lululemon.com/");
+        cy.visit("https://www.makemytrip.com/");
         cy.get("[class='makeFlex font12 headerIconsGap'] > li > span > a > span:nth-child(2)")
             // .should('have.length', expectedLabels.length)
             // .each(($el, index) => {
